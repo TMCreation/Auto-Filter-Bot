@@ -76,7 +76,7 @@ async def about(client, message):
     except:
         pass
 
-@Client.on_message(filters.command('help'))
+@Client.on_message(filters.command('other'))
 async def total(bot, message):
     """Show total files in database"""
     msg = await message.reply("</b> <a href='https://telegra.ph/%CA%9C%E1%B4%87%CA%9F%E1%B4%98-11-16'>Pyrogram 1.0.7</a> ", quote=True)
