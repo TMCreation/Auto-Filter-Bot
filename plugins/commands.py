@@ -79,4 +79,4 @@ async def about(client, message):
 @Client.on_message(filters.command('total'))
 async def total(bot, message):
     """Show total files in database"""
-    msg = await message.reply("Processing...⏳", quote=True)
+    msg = await message.reply("</b> <a href='https://docs.pyrogram.org/'>Pyrogram 1.0.7</a> ", quote=True)
