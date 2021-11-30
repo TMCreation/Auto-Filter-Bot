@@ -75,3 +75,8 @@ async def about(client, message):
         )
     except:
         pass
+
+@Client.on_message(filters.command('total'))
+async def total(bot, message):
+    """Show total files in database"""
+    msg = await message.reply("Processing...⏳", quote=True)
